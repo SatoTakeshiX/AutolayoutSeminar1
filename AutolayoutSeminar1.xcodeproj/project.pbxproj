@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30E3742F1B785C5400BC62F9 /* Center.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E3742E1B785C5400BC62F9 /* Center.storyboard */; };
+		30E374321B785CCA00BC62F9 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E374311B785CCA00BC62F9 /* CenterViewController.m */; };
+		30E374351B785D6000BC62F9 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E374341B785D6000BC62F9 /* MainTableViewController.m */; };
+		30E374381B785F2700BC62F9 /* EqualIntervalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E374371B785F2700BC62F9 /* EqualIntervalViewController.m */; };
+		30E3743A1B785F3C00BC62F9 /* EqualInterval.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E374391B785F3C00BC62F9 /* EqualInterval.storyboard */; };
+		30E3743D1B78628700BC62F9 /* VerticalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E3743C1B78628700BC62F9 /* VerticalScrollViewController.m */; };
+		30E374401B7862BC00BC62F9 /* VerticalAndHorizontalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E3743F1B7862BC00BC62F9 /* VerticalAndHorizontalScrollViewController.m */; };
+		30E374421B7862D400BC62F9 /* VerticalScroll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E374411B7862D400BC62F9 /* VerticalScroll.storyboard */; };
+		30E374441B7862E400BC62F9 /* VerticalAndHorizontalScroll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E374431B7862E400BC62F9 /* VerticalAndHorizontalScroll.storyboard */; };
 		30E69F791B7390F600E642FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E69F781B7390F600E642FA /* main.m */; };
 		30E69F7C1B7390F600E642FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E69F7B1B7390F600E642FA /* AppDelegate.m */; };
-		30E69F7F1B7390F600E642FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E69F7E1B7390F600E642FA /* ViewController.m */; };
 		30E69F821B7390F600E642FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E69F801B7390F600E642FA /* Main.storyboard */; };
 		30E69F841B7390F600E642FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E69F831B7390F600E642FA /* Images.xcassets */; };
 		30E69F871B7390F600E642FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E69F851B7390F600E642FA /* LaunchScreen.xib */; };
@@ -27,13 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30E3742E1B785C5400BC62F9 /* Center.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Center.storyboard; sourceTree = "<group>"; };
+		30E374301B785CCA00BC62F9 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		30E374311B785CCA00BC62F9 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		30E374331B785D6000BC62F9 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		30E374341B785D6000BC62F9 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		30E374361B785F2700BC62F9 /* EqualIntervalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualIntervalViewController.h; sourceTree = "<group>"; };
+		30E374371B785F2700BC62F9 /* EqualIntervalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualIntervalViewController.m; sourceTree = "<group>"; };
+		30E374391B785F3C00BC62F9 /* EqualInterval.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EqualInterval.storyboard; sourceTree = "<group>"; };
+		30E3743B1B78628700BC62F9 /* VerticalScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalScrollViewController.h; sourceTree = "<group>"; };
+		30E3743C1B78628700BC62F9 /* VerticalScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalScrollViewController.m; sourceTree = "<group>"; };
+		30E3743E1B7862BC00BC62F9 /* VerticalAndHorizontalScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalAndHorizontalScrollViewController.h; sourceTree = "<group>"; };
+		30E3743F1B7862BC00BC62F9 /* VerticalAndHorizontalScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalAndHorizontalScrollViewController.m; sourceTree = "<group>"; };
+		30E374411B7862D400BC62F9 /* VerticalScroll.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VerticalScroll.storyboard; sourceTree = "<group>"; };
+		30E374431B7862E400BC62F9 /* VerticalAndHorizontalScroll.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VerticalAndHorizontalScroll.storyboard; sourceTree = "<group>"; };
 		30E69F731B7390F600E642FA /* AutolayoutSeminar1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutSeminar1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E69F771B7390F600E642FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E69F781B7390F600E642FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30E69F7A1B7390F600E642FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30E69F7B1B7390F600E642FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30E69F7D1B7390F600E642FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30E69F7E1B7390F600E642FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30E69F811B7390F600E642FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30E69F831B7390F600E642FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30E69F861B7390F600E642FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +80,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30E3742B1B785BB300BC62F9 /* CenterView */ = {
+			isa = PBXGroup;
+			children = (
+				30E3742E1B785C5400BC62F9 /* Center.storyboard */,
+				30E374301B785CCA00BC62F9 /* CenterViewController.h */,
+				30E374311B785CCA00BC62F9 /* CenterViewController.m */,
+			);
+			name = CenterView;
+			sourceTree = "<group>";
+		};
+		30E3742C1B785BC200BC62F9 /* EqualIntervalView */ = {
+			isa = PBXGroup;
+			children = (
+				30E374361B785F2700BC62F9 /* EqualIntervalViewController.h */,
+				30E374371B785F2700BC62F9 /* EqualIntervalViewController.m */,
+				30E374391B785F3C00BC62F9 /* EqualInterval.storyboard */,
+			);
+			name = EqualIntervalView;
+			sourceTree = "<group>";
+		};
+		30E3742D1B785BDF00BC62F9 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				30E374411B7862D400BC62F9 /* VerticalScroll.storyboard */,
+				30E3743B1B78628700BC62F9 /* VerticalScrollViewController.h */,
+				30E3743C1B78628700BC62F9 /* VerticalScrollViewController.m */,
+				30E374431B7862E400BC62F9 /* VerticalAndHorizontalScroll.storyboard */,
+				30E3743E1B7862BC00BC62F9 /* VerticalAndHorizontalScrollViewController.h */,
+				30E3743F1B7862BC00BC62F9 /* VerticalAndHorizontalScrollViewController.m */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
 		30E69F6A1B7390F600E642FA = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +134,14 @@
 		30E69F751B7390F600E642FA /* AutolayoutSeminar1 */ = {
 			isa = PBXGroup;
 			children = (
+				30E3742D1B785BDF00BC62F9 /* ScrollView */,
+				30E3742C1B785BC200BC62F9 /* EqualIntervalView */,
+				30E3742B1B785BB300BC62F9 /* CenterView */,
 				30E69F7A1B7390F600E642FA /* AppDelegate.h */,
 				30E69F7B1B7390F600E642FA /* AppDelegate.m */,
-				30E69F7D1B7390F600E642FA /* ViewController.h */,
-				30E69F7E1B7390F600E642FA /* ViewController.m */,
 				30E69F801B7390F600E642FA /* Main.storyboard */,
+				30E374331B785D6000BC62F9 /* MainTableViewController.h */,
+				30E374341B785D6000BC62F9 /* MainTableViewController.m */,
 				30E69F831B7390F600E642FA /* Images.xcassets */,
 				30E69F851B7390F600E642FA /* LaunchScreen.xib */,
 				30E69F761B7390F600E642FA /* Supporting Files */,
@@ -200,8 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E69F821B7390F600E642FA /* Main.storyboard in Resources */,
+				30E3742F1B785C5400BC62F9 /* Center.storyboard in Resources */,
 				30E69F871B7390F600E642FA /* LaunchScreen.xib in Resources */,
+				30E3743A1B785F3C00BC62F9 /* EqualInterval.storyboard in Resources */,
 				30E69F841B7390F600E642FA /* Images.xcassets in Resources */,
+				30E374421B7862D400BC62F9 /* VerticalScroll.storyboard in Resources */,
+				30E374441B7862E400BC62F9 /* VerticalAndHorizontalScroll.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E69F7F1B7390F600E642FA /* ViewController.m in Sources */,
+				30E374321B785CCA00BC62F9 /* CenterViewController.m in Sources */,
+				30E3743D1B78628700BC62F9 /* VerticalScrollViewController.m in Sources */,
 				30E69F7C1B7390F600E642FA /* AppDelegate.m in Sources */,
+				30E374381B785F2700BC62F9 /* EqualIntervalViewController.m in Sources */,
+				30E374351B785D6000BC62F9 /* MainTableViewController.m in Sources */,
+				30E374401B7862BC00BC62F9 /* VerticalAndHorizontalScrollViewController.m in Sources */,
 				30E69F791B7390F600E642FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -348,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutolayoutSeminar1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutolayoutSeminar1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +482,7 @@
 				30E69F981B7390F600E642FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30E69F991B7390F600E642FA /* Build configuration list for PBXNativeTarget "AutolayoutSeminar1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +491,7 @@
 				30E69F9B1B7390F600E642FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
